@@ -1,0 +1,41 @@
+header{
+    font-family:Inter;
+    
+    width:100%;
+    margin:0 ;
+    padding:0;
+    background: white;
+    border: transparent;
+    border-bottom-right-radius: 20px;
+    
+}
+nav
+{
+   
+    display:flex;
+    justify-content:space-around;
+    padding:0  10px;
+}
+
+.divide{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width:20%;
+    
+}
+ul{
+    font-family:inherit;
+    width:40%;
+    
+    font-size:16px;
+    margin:0;
+    padding:0;
+    list-style:none;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    gap:20px;
+    color:#00278C;
+    font-weight: 550;
+}

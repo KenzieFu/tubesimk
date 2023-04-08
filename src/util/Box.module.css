@@ -1,0 +1,9 @@
+.box{
+    padding-top:5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background:white;
+    max-width: 900px;
+    border:transparent;
+    border-radius: 17px;
+}
