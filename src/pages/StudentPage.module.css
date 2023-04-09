@@ -1,9 +1,13 @@
 .content{
-    margin-top:20px ;
-}
-
-.struct 
-{
+    margin-top:100px ;
     display: flex;
     gap:25px;
+    background:"#F1F1F1";
+    
+}
+
+
+
+.list-books{
+    margin:10px 0;
 }

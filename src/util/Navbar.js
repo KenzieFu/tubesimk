@@ -4,7 +4,7 @@ export const Navbar = () => {
   return (
     <>
         <header>
-            <nav>
+            <nav className={classes.navbar}>
                 <ul>
                     <li>Home</li>
                     <li>Contact Us</li>
