@@ -25,7 +25,7 @@ export const Book = () => {
                   <span className='fa fa-star'></span>
                   <span className='fa fa-star'></span>
                   </div>
-                  <span>3</span>
+                  <span>3.0</span>
                   
                 </div>
             </div>
