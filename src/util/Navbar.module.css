@@ -8,9 +8,10 @@ header{
     background: white;
     border: transparent;
     border-bottom-right-radius: 20px;
-    position: fixed;
+    position: sticky;
     top:0;
-    z-index: 100;
+    z-index: 99;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); 
     
     
 }
@@ -22,7 +23,7 @@ header{
     margin :0;
     background: transparent;
     padding:0  10px;
-   
+   z-index: 99;
     
 }
 

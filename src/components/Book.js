@@ -3,7 +3,7 @@ import { Box } from '../util/Box'
 export const Book = () => {
   return (
     <Box>
-        <div style={{ marginLeft:"20px" }}>
+        <div style={{ marginLeft:"50px" }}>
             <div></div>
             <div id='book-info'>
                 <span>4 hari lagi</span>

@@ -12,6 +12,10 @@ export const StudentPage = () => {
           <StudentChart/>
           <div className={classes["list-books"]}>
             <Book/>
+            <Book/>
+            <Book/>
+            <Book/>
+            <Book/>
             </div>
           </div>
            
