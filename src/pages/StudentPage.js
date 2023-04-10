@@ -4,6 +4,7 @@ import { Sidebar } from '../util/Sidebar';
 import { StudentChart } from '../components/StudentChart';
 import { Book } from '../components/Book';
 import { StudentCard } from '../components/StudentCard';
+import { LatestBook } from '../components/LatestBook';
 export const StudentPage = () => {
   return (
     <div className={classes.content}>
@@ -19,6 +20,7 @@ export const StudentPage = () => {
           </div>
            <div>
             <StudentCard/>
+            <LatestBook/>
            </div>
            
           
