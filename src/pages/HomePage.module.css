@@ -1,0 +1,24 @@
+.main{
+    background: white;
+    display: flex;
+    padding: 60px;
+    width: 100%;
+    align-items: center;
+    font-family: Inter;
+    color: #2E55BA;
+
+}
+
+.quote{
+    display: flex;
+    
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.main-left{
+    width: 50vw;
+}
+.main-right{
+    width: 50vw;
+}

@@ -10,7 +10,10 @@
     border-top-right-radius:17px ;
 
 
-    margin-top: 20px;
+
+    position: relative;
+    bottom: 0;
+  
 }
 
 .main{
