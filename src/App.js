@@ -18,6 +18,7 @@ function App() {
     <div style={{background:"#F1F1F1", minHeight:"100vh" }} className="App">
     <Navbar/>
       <HomePage/>
+      {/* <StudentPage/> */}
       <Footer/>
       </div>
       
