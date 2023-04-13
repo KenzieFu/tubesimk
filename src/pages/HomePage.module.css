@@ -97,14 +97,40 @@
 
 .content{
     padding: 20px;
+    display: flex;
     
 }
 
 .left-content{
     display:flex;
     flex-direction: column;
+    width: 50%;
+    margin-right: 10px;
 }
 
 .right-content{
+    font-family: Inter;
+    
+    width: 50%;
+    margin-left: 10px;
+}
 
+.right-content_p{
+    width: 90%;
+}
+
+.right-content_h2{
+    margin-bottom: 10px;
+}
+
+.right-content_ol{
+    width: 100%;
+    
+    
+    display: flex;
+    color: black;
+    flex-direction: column;
+    padding-left: 50px;
+    margin: 7px;
+    align-items: flex-start;
 }

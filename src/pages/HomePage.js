@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './HomePage.module.css'
+import { Info } from '../components/Info'
 export const HomePage = () => {
   return (
     <div style={{ background:"white" }}>
@@ -37,8 +38,30 @@ export const HomePage = () => {
         </div>
 
         <div className={classes.content} >
-            <div className={classes["left-content"]}></div>
-            <div className={classes["right-content"]}></div>
+            <div className={classes["left-content"]}>
+                <Info/>
+                <Info/>
+                <Info/>
+            </div>
+            <div className={classes["right-content"]}>
+                <div>Image</div>
+                <div>
+                    <h1 className={classes["right-content_h2"]}>Pengumuman T.P. 2022/2023</h1>
+                    <p className={classes["right-content_p"]}>Salam Sejahtera bagi kita semua.Ada beberapa hal yang perlu kami infokan sehubungan dengan 
+                        kegiatan belajar mengajar:
+                        <ol className={classes["right-content_ol"]}>
+                            <li>Kegiatan Belajar Mengajar Semester Ganjil T.P. 2022 – 2023 dimulai pada tanggal 14 Juli 2022.</li>
+                            <li>Pengambilan Buku Pelajaran 11 – 13 Juli 2022 di Lantai 1.</li>
+                            <li>Masa Pengenalan Lingkungan Sekolah (MPLS) tanggal 14 Juli 2022 pukul 07.50 – 10.00.</li>
+                            <li>Simulasi pembelajaran tanggal 15 Juli 2022 pukul 07.50 – 12.40.</li>
+                            <li>Pembelajaran dilaksanakan secara penuh dengan tatap muka di sekolah mulai tanggal 18 Juli 2022</li>
+                            <li>Untuk informasi lebih lanjut, kami informasikan melalui Group kelas.</li>
+                        </ol>
+
+                        Terima Kasih atas perhatian dan kerjasamanya.Methodist Charles Wesley
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
   )
