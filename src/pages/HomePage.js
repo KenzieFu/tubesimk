@@ -1,6 +1,20 @@
 import React from 'react'
 import classes from './HomePage.module.css'
 import { Info } from '../components/Info'
+
+const DUMMY_info=[
+    {id:"1",img:"./assets/info1.png",title:"Now Enrolling for School Year 2023/2024",content:"If you need any further information, please feel free to contact us at 0878 6912 3707 ",button:"Register"},
+    {id:"2",img:"./assets/info2.png",title:"Jadwal Pembelian Buku T.P. 2022/2023",content:"If you need any further information, please feel free to contact us at 0878 6912 3707 ",button:"More Info"},
+    {id:"3", img:"./assets/info3.png", title:"Site Perpustakaan Methodist Charles Wesley",content:"Peminjaman buku perpustakaan offline & online melalui website. ", button:"Website"}
+]
+
+let infos=DUMMY_info.map((info)=><Info img={info.img} title={info.title} content={info.content} button={info.button} />)
+
+const Announce={
+    title:"",
+    content:""
+}
+
 export const HomePage = () => {
   return (
     <div style={{ background:"white" }}>
@@ -39,9 +53,8 @@ export const HomePage = () => {
 
         <div className={classes.content} >
             <div className={classes["left-content"]}>
-                <Info/>
-                <Info/>
-                <Info/>
+
+                {infos}
             </div>
             <div className={classes["right-content"]}>
                 <div>Image</div>

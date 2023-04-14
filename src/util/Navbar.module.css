@@ -49,3 +49,8 @@ ul{
     color:#00278C;
     font-weight: 550;
 }
+
+
+.navbar li{
+    cursor: pointer;
+}

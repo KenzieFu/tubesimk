@@ -3,24 +3,33 @@ import "./App.css"
 import { StudentPage } from './pages/StudentPage';
 import { Footer } from './components/Footer';
 
-import { createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
+import { RootLayout } from './pages/Root';
+import { useSelector } from 'react-redux';
 
-createBrowserRouter([
-  { path: ""},
-  {}
-])
+
+
 
 function App() {
+
+  const auth =useSelector(state=>state.auth);
+
+  const router=createBrowserRouter([
+    { path: "/",
+      element: <RootLayout/>,
+      children:[
+       {index:true ,element:!auth?<HomePage/>:<StudentPage/>}
+      ]
+    },
+    {}
+  ]);
+  
+
   return (
     <>
     
-    <div style={{background:"#F1F1F1", minHeight:"100vh" }} className="App">
-    <Navbar/>
-      <HomePage/>
-      {/* <StudentPage/> */}
-      <Footer/>
-      </div>
+    <RouterProvider router={router}/>
       
     </>
   
