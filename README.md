@@ -6,6 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### `npm install react-router-dom`
 ### `npm install redux react-redux`
+### `npm i @reduxjs/toolkit react-redux react-router-dom`
 
 ## Available Scripts
 
