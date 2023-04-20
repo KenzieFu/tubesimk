@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box } from '../util/Box'
+import { Box } from '../UI/Box'
 import classes from "./Book.module.css"
 
 

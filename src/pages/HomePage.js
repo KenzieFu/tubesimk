@@ -10,10 +10,7 @@ const DUMMY_info=[
 
 let infos=DUMMY_info.map((info)=><Info img={info.img} title={info.title} content={info.content} button={info.button} />)
 
-const Announce={
-    title:"",
-    content:""
-}
+
 
 export const HomePage = () => {
   return (

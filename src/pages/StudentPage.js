@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from "./StudentPage.module.css";
-import { Sidebar } from '../util/Sidebar';
+import { Sidebar } from '../UI/Sidebar';
 import { StudentChart } from '../components/StudentChart';
 import { Book } from '../components/Book';
 import { StudentCard } from '../components/StudentCard';
