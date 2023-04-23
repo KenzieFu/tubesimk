@@ -20,7 +20,7 @@ function App() {
     { path: "/",
       element: <RootLayout/>,
       children:[
-       {index:true ,element:<HomePage/>},
+       {index:true ,element:<LibraryPage/>},
        {path:"login"},
        {path:"logout"}
       ]
