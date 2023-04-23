@@ -7,6 +7,7 @@ import { HomePage } from './pages/HomePage';
 import { RootLayout } from './pages/Root';
 
 import {StudentPage} from './pages/StudentPage'
+import { LibraryPage } from "./pages/LibraryPage";
 
 
 
@@ -19,7 +20,9 @@ function App() {
     { path: "/",
       element: <RootLayout/>,
       children:[
-       {index:true ,element:<HomePage/>}
+       {index:true ,element:<HomePage/>},
+       {path:"login"},
+       {path:"logout"}
       ]
     },
     {}
