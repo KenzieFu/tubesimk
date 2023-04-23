@@ -1,0 +1,35 @@
+
+.popular{
+    font-family: Inter;
+    color:#00278C ;
+    
+}
+.popular ul{
+    display: grid ;
+    grid-template-columns: 280px 280px 280px auto;
+    list-style-type: none;
+    grid-gap: 30px;
+   padding: 0;
+}
+.popular h1{
+    margin-left: 15px;
+}
+
+.popular .book-detail{
+    
+   display: flex;
+   flex-direction: column;
+}
+
+.book-detail h2{
+    font-size: 20px;
+    color: black;
+    margin:3px 0;
+}
+
+.book-detail span{
+    color: #686B6F;
+    font-size: 15px;
+}
+
+
