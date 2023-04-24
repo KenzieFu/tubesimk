@@ -1,8 +1,6 @@
 import React from 'react'
-import { Box } from '../UI/Box'
+import { Box } from '../util/Box'
 import classes from "./Book.module.css"
-
-
 export const Book = () => {
   return (
     <Box>
@@ -15,10 +13,8 @@ export const Book = () => {
                   <h1 className={classes["book-info_h1"]}>Laut Bercerita</h1>
                   <p style={{ marginTop:"0",paddingTop:"0"  }}>Leila salika Chudori</p>
                   </div>
-                    
                     <button className={classes["book-info_button"]}>Details</button>
                 </div>
-                
                 <div className={classes.rating}>
                   <div className={classes.stars}>
                   <span className={'fa fa-star '+ classes.checked}></span>
@@ -28,7 +24,7 @@ export const Book = () => {
                   <span className='fa fa-star'></span>
                   </div>
                   <span>3.0</span>
-                  
+
                 </div>
             </div>
         </div>

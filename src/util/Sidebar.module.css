@@ -1,0 +1,23 @@
+.sidebar{
+    display: flex;
+    flex-flow: column;
+    height: 84vh;
+    padding:10px 0;
+    align-items: center;
+    width: 7%;
+    background: white;
+    border: transparent;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    
+    
+}
+.side-nav{
+    padding: 15px 0;
+}
+
+.sidebar-nav{
+    display: flex;
+    flex-direction: column;
+    gap:35px;
+}

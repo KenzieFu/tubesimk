@@ -1,7 +1,7 @@
 import React from 'react'
-import { Box } from '../UI/Box'
+import { Box } from '../util/Box'
 import classes from './StudentChart.module.css'
-import { BookBar } from '../UI/BookBar'
+import { BookBar } from '../util/BookBar'
 export const StudentChart = () => {
   return (
     <>
