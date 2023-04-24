@@ -3,7 +3,10 @@
     display: flex;
     gap:25px;
     background:"#F1F1F1";
-    
+}
+.conten_inner{
+    margin-left:20px ;
+
 }
 
 

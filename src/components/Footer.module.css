@@ -1,9 +1,6 @@
 .footer{
-   
-   
     background-color: white;
     font-family: Inter;
-    
     display: flex;
     padding:10px 50px;
     justify-content: space-between;
@@ -28,11 +25,14 @@
     position: absolute;
     top: -100px;
     z-index: 23;
-    
-}
 
+}
 .right-footer{
     display: flex;
     flex-direction: column;
 }
+.info{
+    margin-right: 30px;
+}
+
 

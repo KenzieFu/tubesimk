@@ -8,26 +8,18 @@ import { LatestBook } from '../components/LatestBook';
 export const StudentPage = () => {
   return (
     <div className={classes.content}>
-      
-          <Sidebar/>
-          <div>
-            <StudentChart/>
-              <div className={classes["list-books"]}>
-              <Book/>
-              <Book/>
-
-            </div>
-          </div>
-           <div>
-            <StudentCard/>
-            <LatestBook/>
-           </div>
-           
-          
-        
-        
+      <Sidebar />
+      <div>
+        <StudentChart />
+        <div className={classes["list-books"]}>
+          <Book />
+          <Book />
         </div>
-
-   
-  ) 
+      </div>
+      <div>
+        <StudentCard />
+        <LatestBook />
+      </div>
+    </div>
+  )
 }
